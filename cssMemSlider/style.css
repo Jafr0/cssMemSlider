@@ -109,11 +109,9 @@ width: 15px;
 .active{ 
   margin-top: -12%;
   position: relative;
-  
   margin-left: 80%;
- background-color: black;
+  background-color: black;
   text-align: right;
-  
   width: 20%;
 
   height: 60px;
@@ -158,65 +156,47 @@ width: 15px;
 
 @media (max-width: 700px){
 	.active{ 
-	
 		position: relative;
 		margin: 1% auto;
-		
-	 
 		text-align: center;
-		
 		width: 30%;
-	 
-		height: 60px;
+	 	height: 60px;
 		z-index: 0;
 		
 		
 		
 	 }
 	 .image p{
-	
-	margin-top: 2%;
+		margin-top: 2%;
 		text-align: center;
 		line-height: 40px;
-		
 		font-size: 2em;
-		
-		
 		z-index: 2;
 	}
 
 	#slides{
 		height: 100%;
-		
-	}
+		}
 }
 
 @media (max-width: 320px){
 	.active{ 
-	
 		position: absolute;
 		margin-top: -50%;
 		margin-left: 30%;
-	 
-		text-align: right;
-		
+	 	text-align: right;
 		width: 30%;
-	 
-		height: 60px;
+	 	height: 60px;
 		z-index: 0;
 		
 		
 		
 	 }
 	 .image p{
-	
 		margin-top: 30%;
 		text-align: center;
 		line-height: 40px;
-		
 		font-size: 1.5em;
-		
-		
 		z-index: 2;
 	}
 
